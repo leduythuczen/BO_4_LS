@@ -1,6 +1,6 @@
 # Hướng dẫn Tải về, Giải nén và Chạy Dự án HEBO
 ```bash
-git clone https://github.com/huawei-noah/HEBO.git
+git clone https://github.com/leduythuczen/BO_4_LS.git
 cd HEBO/BOiLS
 ```
 ## Setup
