@@ -3,6 +3,11 @@
 git clone https://github.com/leduythuczen/BO_4_LS.git
 cd HEBO/BOiLS
 ```
+## PDK download:
+<p>Current repo doesn't have any available PDK so before runing experiment, you can download PDK from following path: 
+https://github.com/The-OpenROAD-Project/asap7sc6t_26/tree/main/LIB/CCS<br />
+=> Get one sample lib to your repo, unzip and rename as: ZZZ; place it at location : XXX </p>
+
 ## Setup
 Our experiments were performed on two machines with **Intel Xeon CPU E5-2699 v4@2.20GHz**, 64GB RAM, running
 **Ubuntu 18.04.4 LTS** and equipped with one **NVIDIA Tesla
