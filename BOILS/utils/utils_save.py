@@ -31,7 +31,7 @@ except FileNotFoundError as e_:
 
 
 def get_storage_root():
-    return os.path.join(DATA_STORAGE_ROOT, NAME, PROJECT_NAME, 'results')
+    return os.path.join("./HEBO/BOiLS/", 'results')
 
 
 def get_storage_models_root():
@@ -43,7 +43,7 @@ def get_storage_tuning_root():
 
 
 def get_storage_data_root():
-    return os.path.join(DATA_STORAGE_ROOT, NAME, PROJECT_NAME, 'data')
+    return os.path.join("./HEBO/BOiLS/"", 'data')
 
 
 def get_storage_datasets_root():
