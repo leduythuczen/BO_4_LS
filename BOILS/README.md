@@ -6,7 +6,7 @@ cd HEBO/BOiLS
 ## PDK download:
 <p>Current repo doesn't have any available PDK so before runing experiment, you can download PDK from following path: 
 https://github.com/The-OpenROAD-Project/asap7sc6t_26/tree/main/LIB/CCS<br />
-=> Get one sample lib to your repo, unzip and rename as: ZZZ; place it at location : XXX </p>
+=> Get one sample lib to your repo, unzip and rename as: asap7.lib; place it at location : ./HEBO/BOiLS </p>
 
 ## Setup
 Our experiments were performed on two machines with **Intel Xeon CPU E5-2699 v4@2.20GHz**, 64GB RAM, running
