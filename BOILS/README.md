@@ -25,7 +25,7 @@ sudo apt-get install -y yosys
 
 ```shell script
 # Create virtualenv
-python3.7 -m venv ./venv
+python3.8 -m venv ./venv
 
 # Activate venv
 source venv/bin/activate
