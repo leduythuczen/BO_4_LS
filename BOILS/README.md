@@ -21,7 +21,7 @@ sudo apt-get update -y
 sudo apt-get install -y yosys
 ```
 
-- Create Python 3.7 venv
+- Create Python 3.88 venv
 
 ```shell script
 # Create virtualenv
@@ -32,7 +32,7 @@ source venv/bin/activate
 
 # Try installing requirements
 # if getting issues with torch installation visit: https://pytorch.org/get-started/previous-versions/
-conda install --yes --file requirements.txt
+pip install -r requirements.txt
 #----- Begin Graph-RL: if you need to run Graph-RL experiments, you need to install the following (you can skip this if BOiLS is only what you need): 
 # follow instructions from: https://github.com/krzhu/abc_py
 #-----  End Graph-RL -----
