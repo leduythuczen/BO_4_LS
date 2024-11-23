@@ -72,13 +72,8 @@ the [resources](./resources) directory, while the scripts to run the synthesis f
 **BOiLS** can be run as shown below to find a sequence of logic synthesis primitives optimising the area / delay of a given circuit (e.g. `log2.blif` from EPFL benchmark). 
 
 ```shell script
-python ./core/algos/bo/boils/main_multi_boils.py --designs_group_id log2 --n_parallel $n_parallel 1 \
-                      --seq_length 20 --mapping fpga --action_space_id extended --ref_abc_seq resyn2 \
-                      --n_total_evals 200 --n_initial 20 --device 0 --lut_inputs 4 --use_yosys 1  \
-                      --standardise --ard --acq ei --kernel_type ssk \
-                      --length_init_discrete_factor .666 --failtol 40 \
-                      --objective area \
-                      --seed 0"
+python3.8 ./core/algos/bo/boils/main_multi_boils.py --designs_group_id log2 --n_parallel 1 --seq_length 20 --mapping fpga --action_space_id extended --ref_abc_seq resyn2 --n_total_evals 200 --n_initial 20 --device 0 --lut_inputs 4 --use_yosys 1 --standardise --ard --acq ei --kernel_type ssk --length_init_discrete_factor 0.666 --failtol 40 --objective area --seed 0
+
 ```
 Meaning of all the parameters are provided in the script: [./core/algos/bo/hebo/multi_hebo_exp.sh](core/algos/bo/hebo/multi_hebo_exp.sh). We created similar scripts for a wide set of optimisers, as detailed in the following section.
 
